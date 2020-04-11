@@ -1,0 +1,83 @@
+@charset "UTF-8";
+.App-header {
+  height: 150px;
+  background: #6e6a6a;
+  background-image: url(./fondoHeader.svg);
+  background-size: contain;
+}
+.App-header .App-logo {
+  height: 100%;
+  margin-left: 5%;
+}
+
+.p {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.p .style {
+  width: 10rem;
+  height: 17rem;
+}
+.p .prod {
+  margin: 1em;
+  background: #00ff7f;
+}
+.p .img {
+  width: 158px;
+  height: 130px;
+}
+
+.plomo {
+  background: #6e6a6a;
+}
+
+.verde {
+  background: #00ff7f;
+  border-radius: 1em;
+  width: auto;
+}
+
+.right {
+  text-align: right;
+}
+
+.tamaño {
+  min-width: 50px;
+}
+
+.oscuro {
+  color: #222222;
+}
+
+.textos {
+  font-family: fantasy;
+  font-size: 20px;
+  border-color: #6e6a6a;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.datos {
+  font-family: fantasy;
+  font-size: 20px;
+  border-color: #6e6a6a;
+  font-weight: normal;
+  color: #ccc2c2;
+}
+
+.fondito {
+  background-image: url(./fondoBurger.svg);
+  background-size: contain;
+}
+
+.tabla {
+  background: #222222;
+}
+
+.franja {
+  background: #00ff7f;
+  width: auto;
+}
+
+/*# sourceMappingURL=estilo.css.map */

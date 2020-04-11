@@ -1,0 +1,13 @@
+$plomo: #6e6a6a;
+
+// Header
+.App-header {
+  height: 150px;
+  background: $plomo;
+  background-image: url(./fondoHeader.svg);
+  background-size: contain;
+      .App-logo {
+      height: 100%;
+      margin-left: 5%;
+      }
+}

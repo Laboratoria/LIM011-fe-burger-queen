@@ -1,0 +1,38 @@
+$btnColor-verde: #00ff7f;
+$plomo: #6e6a6a;
+
+.p {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  .style {
+     width: 10rem;
+     height: 17rem;
+   }
+  .prod {
+    margin: 1em;
+    background: $btnColor-verde;
+   }
+  .img {
+    width: 158px;
+    height: 130px;
+   }
+}
+
+.plomo {
+  background: $plomo;
+}
+.verde {
+  background: $btnColor-verde;
+  border-radius: 1em;
+  width: auto;
+}
+.right {
+  text-align: right;
+}
+.tamaño {
+  min-width: 50px;
+}
+.oscuro{
+  color:#222222;
+}
